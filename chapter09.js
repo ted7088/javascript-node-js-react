@@ -16,7 +16,7 @@ let animal = "cat";
 
 switch (animal) {
   case "cat": {
-    console.log("고양이");
+    console.log("야옹이 ");
     break;
   }
   case "dog": {
