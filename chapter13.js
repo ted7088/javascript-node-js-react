@@ -27,12 +27,12 @@ function repeatDouble(count) {
 repeat(5);
 repeatDouble(5);
 
-function repeatcallback(count, callback) {
+function repeatcallbackfunc(count, callback) {
   for (let idx = 1; idx <= count; idx++) {
     callback(idx);
   }
 }
 
-repeatcallback(5, function (idx) {
+repeatcallbackfunc(5, function (idx) {
   console.log(idx);
 });
