@@ -10,7 +10,7 @@ function sub() {
 
 main(sub);
 
-//2.콜백함수의 활용
+//2.콜백함수의 활용 및 정리
 
 function repeat(count) {
   for (let idx = 1; idx <= count; idx++) {
