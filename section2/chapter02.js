@@ -18,4 +18,4 @@ function printName(person) {
 }
 
 printName();
-printName({ name: "이정환" });
+printName({ name: "강대범" });
