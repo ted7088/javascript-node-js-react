@@ -4,8 +4,6 @@
 let arr1 = [1, 2, 3];
 let arr2 = [4, ...arr1, 5, 6];
 
-console.log(arr2);
-
 let obj1 = {
   a: 1,
   a: 2,
