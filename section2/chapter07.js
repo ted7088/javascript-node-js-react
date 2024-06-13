@@ -33,4 +33,5 @@ console.log(newLength2, arr4);
 //마치 가위처럼, 배열의 특정 범위를 잘라내서 새로운 배열로 반환
 
 let arr5 = [1, 2, 3, 4, 5];
-arr5.slice(2);
+let sliced = arr5.slice(2, 5);
+console.log(sliced);
