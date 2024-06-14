@@ -13,7 +13,7 @@ add(1, 2, (value) => {
 //음식을 주문하는 상황
 function orderFood() {
   setTimeout(() => {
-    const food = "떡볶이";
+    const food = "짜장";
   }, 3000);
 }
 
