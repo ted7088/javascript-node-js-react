@@ -20,7 +20,7 @@ function orderFood(callback) {
 
 function cooldownFood(food, callback) {
   setTimeout(() => {
-    const cooldownedFood = `식은 ${food}`; // 백틱 사용
+    const cooldownedFood = `식은 ${food}`;
     callback(cooldownedFood);
   }, 2000);
 }
