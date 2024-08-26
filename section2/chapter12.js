@@ -25,10 +25,21 @@ function cooldownFood(food, callback) {
   }, 2000);
 }
 
+function freezeFood(food) {
+  setTimeout(() => {
+    const freezeFood = `냉동된 ${food}`;
+    callback(freezeFood);
+  }, 1500);
+}
+
 orderFood((food) => {
   console.log(food); // "짜장" 출력
 
   cooldownFood(food, (cooldownedFood) => {
     console.log(cooldownedFood); // "식은 짜장" 출력
+
+    freezeFood(cooldownFood, (freezeFood) => {
+      console.log(freezeFood);
+    });
   });
 });
