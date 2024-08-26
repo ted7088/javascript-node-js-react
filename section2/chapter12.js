@@ -25,7 +25,7 @@ function cooldownFood(food, callback) {
   }, 2000);
 }
 
-function freezeFood(food) {
+function freezeFood(food, callback) {
   setTimeout(() => {
     const freezeFood = `냉동된 ${food}`;
     callback(freezeFood);
@@ -38,7 +38,7 @@ orderFood((food) => {
   cooldownFood(food, (cooldownedFood) => {
     console.log(cooldownedFood); // "식은 짜장" 출력
 
-    freezeFood(cooldownFood, (freezeFood) => {
+    freezeFood(cooldownedFood, (freezeFood) => {
       console.log(freezeFood);
     });
   });
