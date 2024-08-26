@@ -10,7 +10,7 @@ add(1, 2, (value) => {
   console.log(value);
 });
 
-// 음식을 주문하는 상황
+// 음식을 주문하는 상황 가정
 function orderFood(callback) {
   setTimeout(() => {
     const food = "짜장면";
