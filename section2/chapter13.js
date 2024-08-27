@@ -7,7 +7,7 @@ function add10(num) {
       if (typeof num == "number") {
         resolve(num + 10);
       } else {
-        reject("num은 숫자가 아닙니다.");
+        reject("num은 숫자 아님");
       }
     }, 2000);
   });
