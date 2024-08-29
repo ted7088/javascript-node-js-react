@@ -21,7 +21,7 @@ function orderFood(callback) {
 function cooldownFood(food, callback) {
   setTimeout(() => {
     const cooldownedFood = `식은 ${food}`;
-    callback(cooldownedFood);
+    callback(cooldownedFood); //식은 음식 전달
   }, 2000);
 }
 
