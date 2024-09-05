@@ -16,7 +16,7 @@ let t3 = [];
 let t4 = {};
 let t5 = () => {};
 
-//3.활용 사례
+//3.활용 사례 및 적용 사례
 
 function printName() {
   if (person === undefined || person === null) {
